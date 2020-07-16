@@ -1,0 +1,22 @@
+# This is a generated file; do not edit or check into version control.
+audio_service=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/audio_service-0.2.1/
+audioplayers=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.13.7/
+barcode_scan=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/
+cloud_firestore=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.13.0+1/
+firebase_auth=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.15.3+1/
+firebase_auth_web=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.1.1+2/
+firebase_core=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.3+2/
+firebase_core_web=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/
+firebase_messaging=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-6.0.9/
+firebase_storage=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-3.1.1/
+flutter_plugin_android_lifecycle=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.3/
+fluttertoast=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-3.1.3/
+geolocator=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-5.1.5/
+google_api_availability=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/google_api_availability-2.0.2/
+google_sign_in=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.1.1/
+google_sign_in_web=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.8.2+1/
+image_picker=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.3/
+location_permissions=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/location_permissions-2.0.4+1/
+map_launcher=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/map_launcher-0.4.1/
+path_provider=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.5.1/
+share=/home/divyank/Android/flutter/.pub-cache/hosted/pub.dartlang.org/share-0.6.3+5/

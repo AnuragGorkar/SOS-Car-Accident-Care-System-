@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.firebase.core.test" >
+4
+5    <uses-sdk
+5-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:5:42-71
+8
+9    <instrumentation
+9-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:11:5-15:87
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:11:22-76
+11        android:functionalTest="false"
+11-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:13:22-53
+13        android:label="Tests for io.flutter.plugins.firebase.core.test"
+13-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:15:22-85
+14        android:targetPackage="io.flutter.plugins.firebase.core.test" />
+14-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:12:22-83
+15
+16    <application
+16-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:7:5-9:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/78d13a1052de831f78ea27d603b3b48b/core-1.0.0/AndroidManifest.xml:22:18-86
+18        android:debuggable="true" >
+18-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:8:9-60
+19-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/tmp/manifest/androidTest/debug/manifestMerger8095923518327975655.xml:8:23-57
+20
+21        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+21-->[__tested_artifact__::firebase_core] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+21-->[__tested_artifact__::firebase_core] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+22            <meta-data
+22-->[__tested_artifact__::firebase_core] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+23                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+23-->[__tested_artifact__::firebase_core] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+24                android:value="com.google.firebase.components.ComponentRegistrar" />
+24-->[__tested_artifact__::firebase_core] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+25        </service>
+26
+27        <provider
+27-->[com.google.firebase:firebase-common:16.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1fb551f13dfe57456ec641e3f59c8edc/jetified-firebase-common-16.1.0/AndroidManifest.xml:12:9-16:39
+28            android:name="com.google.firebase.provider.FirebaseInitProvider"
+28-->[com.google.firebase:firebase-common:16.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1fb551f13dfe57456ec641e3f59c8edc/jetified-firebase-common-16.1.0/AndroidManifest.xml:13:13-77
+29            android:authorities="io.flutter.plugins.firebase.core.test.firebaseinitprovider"
+29-->[com.google.firebase:firebase-common:16.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1fb551f13dfe57456ec641e3f59c8edc/jetified-firebase-common-16.1.0/AndroidManifest.xml:14:13-72
+30            android:exported="false"
+30-->[com.google.firebase:firebase-common:16.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1fb551f13dfe57456ec641e3f59c8edc/jetified-firebase-common-16.1.0/AndroidManifest.xml:15:13-37
+31            android:initOrder="100" />
+31-->[com.google.firebase:firebase-common:16.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1fb551f13dfe57456ec641e3f59c8edc/jetified-firebase-common-16.1.0/AndroidManifest.xml:16:13-36
+32
+33        <meta-data
+33-->[com.google.android.gms:play-services-basement:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/06e481371af9bb3dac5135b9ec7fb654/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+34            android:name="com.google.android.gms.version"
+34-->[com.google.android.gms:play-services-basement:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/06e481371af9bb3dac5135b9ec7fb654/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+35            android:value="@integer/google_play_services_version" />
+35-->[com.google.android.gms:play-services-basement:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/06e481371af9bb3dac5135b9ec7fb654/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+36    </application>
+37
+38</manifest>

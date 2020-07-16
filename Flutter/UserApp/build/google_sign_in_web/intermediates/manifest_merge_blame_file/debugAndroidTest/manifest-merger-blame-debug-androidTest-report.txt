@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.google_sign_in_web.test" >
+4
+5    <uses-sdk
+5-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:5:42-71
+8
+9    <instrumentation
+9-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:11:5-15:92
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:11:22-75
+11        android:functionalTest="false"
+11-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:13:22-53
+13        android:label="Tests for io.flutter.plugins.google_sign_in_web.test"
+13-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:15:22-90
+14        android:targetPackage="io.flutter.plugins.google_sign_in_web.test" />
+14-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:12:22-88
+15
+16    <application
+16-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:7:5-9:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/78d13a1052de831f78ea27d603b3b48b/core-1.0.0/AndroidManifest.xml:22:18-86
+18        android:debuggable="true" >
+18-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:8:9-60
+19-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in_web/intermediates/tmp/manifest/androidTest/debug/manifestMerger7014458897221885791.xml:8:23-57
+20    </application>
+21
+22</manifest>

@@ -1,0 +1,14 @@
+# Referenced at /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:24
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:29
+-keep class com.example.med_regi.MainActivity { <init>(); }
+# Referenced at /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:85
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:71
+-keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
+# Referenced at /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:50
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:79
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:24
+-keep class io.flutter.app.FlutterApplication { <init>(); }

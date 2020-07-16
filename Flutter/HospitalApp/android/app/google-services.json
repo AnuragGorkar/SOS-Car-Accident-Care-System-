@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "568764532110",
+    "firebase_url": "https://sihhackathon-99c65.firebaseio.com",
+    "project_id": "sihhackathon-99c65",
+    "storage_bucket": "sihhackathon-99c65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568764532110:android:9374340a97a8d2078190df",
+        "android_client_info": {
+          "package_name": "com.example.med_regi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568764532110-57i62jh6lgmj1ppslqcere8b3gvd76l9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.med_regi",
+            "certificate_hash": "ab94ec126afe99df0a302f280a5c7d8caead6816"
+          }
+        },
+        {
+          "client_id": "568764532110-s95bru0mops5g3q9qvg3u9jsmlhnbu1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhgDSf6c12SCAK_5d8fUDhQihU1Al650M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568764532110-s95bru0mops5g3q9qvg3u9jsmlhnbu1i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "568764532110-m1klonjdcoc6qf3hen0qgj8d1ovhj2ce.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sihhackathon"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568764532110:android:d69e0303c40583ef8190df",
+        "android_client_info": {
+          "package_name": "com.example.sih_hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568764532110-vcus84rqf7ihippnuuqs248nmk938aph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sih_hackathon",
+            "certificate_hash": "ab94ec126afe99df0a302f280a5c7d8caead6816"
+          }
+        },
+        {
+          "client_id": "568764532110-s95bru0mops5g3q9qvg3u9jsmlhnbu1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhgDSf6c12SCAK_5d8fUDhQihU1Al650M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568764532110-s95bru0mops5g3q9qvg3u9jsmlhnbu1i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "568764532110-m1klonjdcoc6qf3hen0qgj8d1ovhj2ce.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sihhackathon"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

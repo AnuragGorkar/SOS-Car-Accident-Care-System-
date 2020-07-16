@@ -1,0 +1,163 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.med_regi"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:8:5-66
+17-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:9:5-79
+18-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:10:5-81
+19-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:10:22-78
+20    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+21    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-firestore:21.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/b783a2f86dcf5dd3fc3e4d9d0a1c0e23/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+22-->[com.google.firebase:firebase-firestore:21.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/b783a2f86dcf5dd3fc3e4d9d0a1c0e23/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:22-76
+23
+24    <application
+24-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:11:5-32:19
+25        android:name="io.flutter.app.FlutterApplication"
+25-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:12:9-57
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/AndroidManifest.xml:24:18-86
+27        android:icon="@mipmap/ic_launcher"
+27-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:14:9-43
+28        android:label="med_regi" >
+28-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:13:9-33
+29        <activity
+29-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:15:9-26:20
+30            android:name="com.example.med_regi.MainActivity"
+30-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:16:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:19:13-163
+32            android:hardwareAccelerated="true"
+32-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:20:13-47
+33            android:launchMode="singleTop"
+33-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:17:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:18:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:21:13-55
+36            <intent-filter>
+36-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:22:13-25:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:23:17-68
+37-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:23:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:24:17-76
+39-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:24:27-74
+40            </intent-filter>
+41        </activity>
+42        <!--
+43             Don't delete the meta-data below.
+44             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+45        -->
+46        <meta-data
+46-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:29:9-31:33
+47            android:name="flutterEmbedding"
+47-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:30:13-44
+48            android:value="2" />
+48-->/home/divyank/AndroidStudioProjects/Flutter/med_regi/android/app/src/main/AndroidManifest.xml:31:13-30
+49
+50        <service
+50-->[:firebase_auth] /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[:firebase_auth] /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+52            android:directBootAware="true"
+52-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+53            android:exported="false" >
+53-->[com.google.firebase:firebase-firestore:21.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/b783a2f86dcf5dd3fc3e4d9d0a1c0e23/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:19:13-37
+54            <meta-data
+54-->[:firebase_auth] /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+55                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+55-->[:firebase_auth] /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-122
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[:firebase_auth] /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+57            <meta-data
+57-->[:cloud_firestore] /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+58                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+58-->[:cloud_firestore] /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-133
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[:cloud_firestore] /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+60            <meta-data
+60-->[:firebase_core] /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+61                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+61-->[:firebase_core] /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-123
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[:firebase_core] /home/divyank/AndroidStudioProjects/Flutter/med_regi/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-firestore:21.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/b783a2f86dcf5dd3fc3e4d9d0a1c0e23/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+64                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+64-->[com.google.firebase:firebase-firestore:21.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/b783a2f86dcf5dd3fc3e4d9d0a1c0e23/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-firestore:21.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/b783a2f86dcf5dd3fc3e4d9d0a1c0e23/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+67                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+67-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+69        </service>
+70
+71        <activity
+71-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+72            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+72-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+73            android:excludeFromRecents="true"
+73-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+74            android:exported="true"
+74-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+75            android:launchMode="singleTask"
+75-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+76            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+76-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+78
+79        <provider
+79-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+80            android:name="com.google.firebase.provider.FirebaseInitProvider"
+80-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+81            android:authorities="com.example.med_regi.firebaseinitprovider"
+81-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+82            android:exported="false"
+82-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+83            android:initOrder="100" />
+83-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:17.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/bbbfdcfa579bd450dd5f608d71641061/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:17.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/bbbfdcfa579bd450dd5f608d71641061/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:17.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/bbbfdcfa579bd450dd5f608d71641061/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:17.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/bbbfdcfa579bd450dd5f608d71641061/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:17.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/06dc699ce1f52322f9e909a357b2aa11/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:17.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/06dc699ce1f52322f9e909a357b2aa11/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:17.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/06dc699ce1f52322f9e909a357b2aa11/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+93    </application>
+94
+95</manifest>

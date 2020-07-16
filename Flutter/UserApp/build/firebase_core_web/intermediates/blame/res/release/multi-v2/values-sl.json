@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core_web/intermediates/res/merged/release/values-sl/values-sl.xml",
+            "map": [
+                {
+                    "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/78d13a1052de831f78ea27d603b3b48b/core-1.0.0/res/values-sl/values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core_web/intermediates/incremental/mergeReleaseResources/merged.dir/values-sl/values-sl.xml",
+            "map": [
+                {
+                    "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/78d13a1052de831f78ea27d603b3b48b/core-1.0.0/res/values-sl/values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

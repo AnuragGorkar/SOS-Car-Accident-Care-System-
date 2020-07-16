@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/5531ad5096db354152cf387249d432d0/core-1.0.2/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/5531ad5096db354152cf387249d432d0/core-1.0.2/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/res/merged/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/5531ad5096db354152cf387249d432d0/core-1.0.2/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/5531ad5096db354152cf387249d432d0/core-1.0.2/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/5531ad5096db354152cf387249d432d0/core-1.0.2/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    }
+]

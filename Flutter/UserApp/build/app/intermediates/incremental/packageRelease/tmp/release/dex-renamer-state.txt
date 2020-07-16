@@ -1,0 +1,4 @@
+#Tue Jan 07 03:33:03 IST 2020
+base.0=/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/app/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

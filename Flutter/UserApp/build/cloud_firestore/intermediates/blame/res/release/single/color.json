@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/cloud_firestore/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/ca8884cd879dc4db441d8d66e0e0b3e9/play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/cloud_firestore/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/ca8884cd879dc4db441d8d66e0e0b3e9/play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/cloud_firestore/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/ca8884cd879dc4db441d8d66e0e0b3e9/play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    }
+]

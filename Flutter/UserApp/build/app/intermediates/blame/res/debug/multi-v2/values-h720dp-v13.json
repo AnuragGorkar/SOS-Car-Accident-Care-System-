@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

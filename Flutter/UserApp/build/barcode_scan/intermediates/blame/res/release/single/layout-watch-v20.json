@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

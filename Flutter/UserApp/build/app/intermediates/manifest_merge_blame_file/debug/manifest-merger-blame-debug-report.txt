@@ -1,0 +1,294 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sih_hackathon"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:8:5-66
+14-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:9:5-65
+15-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:10:5-80
+16-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:11:5-81
+17-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:12:5-79
+18-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:13:5-81
+19-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:13:22-78
+20    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.firebase:firebase-firestore:21.3.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/662cd92a24914a9fed0986414c1f4351/jetified-firebase-firestore-21.3.1/AndroidManifest.xml:13:5-79
+21-->[com.google.firebase:firebase-firestore:21.3.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/662cd92a24914a9fed0986414c1f4351/jetified-firebase-firestore-21.3.1/AndroidManifest.xml:13:22-76
+22    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:24:5-68
+22-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:24:22-65
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:26:22-79
+24
+25    <application
+25-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:15:5-42:19
+26        android:name="io.flutter.app.FlutterApplication"
+26-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:16:9-57
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:18:9-43
+30        android:label="sih_hackathon" >
+30-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:17:9-38
+31        <activity
+31-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:19:9-35:20
+32            android:name="com.example.sih_hackathon.MainActivity"
+32-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:20:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:23:13-163
+34            android:hardwareAccelerated="true"
+34-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:24:13-47
+35            android:launchMode="singleTop"
+35-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:21:13-43
+36            android:theme="@style/LaunchTheme"
+36-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:22:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:25:13-55
+38            <intent-filter>
+38-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:26:13-29:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:27:17-68
+39-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:27:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:28:17-76
+41-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:28:27-74
+42            </intent-filter>
+43            <intent-filter>
+43-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:31:13-34:29
+44                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+44-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:32:17-69
+44-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:32:25-66
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:33:17-76
+46-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:33:27-73
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.apptreesoftware.barcodescan.BarcodeScannerActivity" />
+49-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:36:9-90
+49-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:36:19-88
+50        <!--
+51             Don't delete the meta-data below.
+52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+53        -->
+54        <meta-data
+54-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:39:9-41:33
+55            android:name="flutterEmbedding"
+55-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:40:13-44
+56            android:value="2" />
+56-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/android/app/src/main/AndroidManifest.xml:41:13-30
+57
+58        <provider
+58-->[:image_picker] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+59            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+59-->[:image_picker] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+60            android:authorities="com.example.sih_hackathon.flutter.image_provider"
+60-->[:image_picker] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+61            android:exported="false"
+61-->[:image_picker] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+62            android:grantUriPermissions="true" >
+62-->[:image_picker] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+63            <meta-data
+63-->[:image_picker] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+64                android:name="android.support.FILE_PROVIDER_PATHS"
+64-->[:image_picker] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+65                android:resource="@xml/flutter_image_picker_file_paths" />
+65-->[:image_picker] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+66        </provider>
+67
+68        <service
+68-->[:cloud_firestore] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+69            android:name="com.google.firebase.components.ComponentDiscoveryService"
+69-->[:cloud_firestore] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+70            android:directBootAware="true"
+70-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+71            android:exported="false" >
+71-->[com.google.firebase:firebase-firestore:21.3.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/662cd92a24914a9fed0986414c1f4351/jetified-firebase-firestore-21.3.1/AndroidManifest.xml:19:13-37
+72            <meta-data
+72-->[:cloud_firestore] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+73-->[:cloud_firestore] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:cloud_firestore] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+75            <meta-data
+75-->[:firebase_auth] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+76-->[:firebase_auth] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:firebase_auth] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+78            <meta-data
+78-->[:firebase_storage] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+79-->[:firebase_storage] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_storage] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[:firebase_core] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+82-->[:firebase_core] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_core] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[:firebase_messaging] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-16:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+85-->[:firebase_messaging] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-127
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_messaging] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-firestore:21.3.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/662cd92a24914a9fed0986414c1f4351/jetified-firebase-firestore-21.3.1/AndroidManifest.xml:20:13-22:85
+88                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+88-->[com.google.firebase:firebase-firestore:21.3.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/662cd92a24914a9fed0986414c1f4351/jetified-firebase-firestore-21.3.1/AndroidManifest.xml:21:17-111
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-firestore:21.3.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/662cd92a24914a9fed0986414c1f4351/jetified-firebase-firestore-21.3.1/AndroidManifest.xml:22:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+91                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+91-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-storage:17.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/caf94fed381a01facd2a4b0972dfa0f0/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+94                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+94-->[com.google.firebase:firebase-storage:17.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/caf94fed381a01facd2a4b0972dfa0f0/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-storage:17.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/caf94fed381a01facd2a4b0972dfa0f0/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:32:13-34:85
+97                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+97-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:33:17-96
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:34:17-82
+99        </service>
+100        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+100-->[:firebase_messaging] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+100-->[:firebase_messaging] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-101
+101            <intent-filter>
+101-->[:firebase_messaging] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+102                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+102-->[:firebase_messaging] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+102-->[:firebase_messaging] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+103            </intent-filter>
+104        </service>
+105
+106        <activity
+106-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+107            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+107-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+108            android:excludeFromRecents="true"
+108-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+109            android:exported="true"
+109-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+110            android:launchMode="singleTask"
+110-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+111            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+111-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.firebase:firebase-auth:19.2.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/1e1aba52ab9f4fc5a2ef49e506d2f30a/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+113        <!--
+114             FirebaseMessagingService performs security checks at runtime,
+115             but set to not exported to explicitly avoid allowing another app to call it.
+116        -->
+117        <service
+117-->[com.google.firebase:firebase-messaging:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a5c558e88c5ab48edad69089a0b63c6d/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:28:9-34:19
+118            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+118-->[com.google.firebase:firebase-messaging:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a5c558e88c5ab48edad69089a0b63c6d/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:29:13-82
+119            android:exported="false" >
+119-->[com.google.firebase:firebase-messaging:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a5c558e88c5ab48edad69089a0b63c6d/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:30:13-37
+120            <intent-filter android:priority="-500" >
+120-->[:firebase_messaging] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+121                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+121-->[:firebase_messaging] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+121-->[:firebase_messaging] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+122            </intent-filter>
+123        </service>
+124
+125        <receiver
+125-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:37:9-44:20
+126            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+126-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:38:13-78
+127            android:exported="true"
+127-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:39:13-36
+128            android:permission="com.google.android.c2dm.permission.SEND" >
+128-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:40:13-73
+129            <intent-filter>
+129-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:41:13-43:29
+130                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+130-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:42:17-81
+130-->[com.google.firebase:firebase-iid:20.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/c24035371300e2948c0fd4472c1cf39b/firebase-iid-20.0.1/AndroidManifest.xml:42:25-78
+131            </intent-filter>
+132        </receiver>
+133
+134        <provider
+134-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+135            android:name="com.google.firebase.provider.FirebaseInitProvider"
+135-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+136            android:authorities="com.example.sih_hackathon.firebaseinitprovider"
+136-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+137            android:exported="false"
+137-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+138            android:initOrder="100" />
+138-->[com.google.firebase:firebase-common:19.3.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/2fe55af1c9ddb456e5d1a75c44b92d82/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+139
+140        <activity
+140-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+141            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+141-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+142            android:excludeFromRecents="true"
+142-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+143            android:exported="false"
+143-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+144            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+144-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+145        <!--
+146            Service handling Google Sign-In user revocation. For apps that do not integrate with
+147            Google Sign-In, this service will never be started.
+148        -->
+149        <service
+149-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+150            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+150-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+151            android:exported="true"
+151-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+152            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+152-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+153
+154        <activity
+154-->[com.google.android.gms:play-services-base:17.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/bbbfdcfa579bd450dd5f608d71641061/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+155-->[com.google.android.gms:play-services-base:17.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/bbbfdcfa579bd450dd5f608d71641061/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-base:17.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/bbbfdcfa579bd450dd5f608d71641061/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-base:17.1.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/bbbfdcfa579bd450dd5f608d71641061/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+158
+159        <meta-data
+159-->[com.google.android.gms:play-services-basement:17.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/06dc699ce1f52322f9e909a357b2aa11/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+160            android:name="com.google.android.gms.version"
+160-->[com.google.android.gms:play-services-basement:17.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/06dc699ce1f52322f9e909a357b2aa11/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+161            android:value="@integer/google_play_services_version" />
+161-->[com.google.android.gms:play-services-basement:17.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/06dc699ce1f52322f9e909a357b2aa11/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+162    </application>
+163
+164</manifest>

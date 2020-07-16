@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/5531ad5096db354152cf387249d432d0/core-1.0.2/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/5531ad5096db354152cf387249d432d0/core-1.0.2/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/5531ad5096db354152cf387249d432d0/core-1.0.2/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/5531ad5096db354152cf387249d432d0/core-1.0.2/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/image_picker/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/5531ad5096db354152cf387249d432d0/core-1.0.2/res/layout/notification_template_part_chronometer.xml"
+    }
+]

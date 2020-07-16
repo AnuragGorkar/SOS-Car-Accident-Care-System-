@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/interpolator-v21/mtrl_fast_out_slow_in.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/309560b134448d8562f6009ea4300e49/material-1.0.0/res/interpolator-v21/mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/interpolator-v21/mtrl_linear_out_slow_in.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/309560b134448d8562f6009ea4300e49/material-1.0.0/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/interpolator-v21/mtrl_fast_out_linear_in.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/309560b134448d8562f6009ea4300e49/material-1.0.0/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
+    }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/med_regi.iml" filepath="$PROJECT_DIR$/med_regi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/med_regi_android.iml" filepath="$PROJECT_DIR$/android/med_regi_android.iml" />
+    </modules>
+  </component>
+</project>

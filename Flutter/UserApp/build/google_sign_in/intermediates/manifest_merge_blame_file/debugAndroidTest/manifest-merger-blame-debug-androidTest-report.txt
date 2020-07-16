@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.googlesignin.test" >
+4
+5    <uses-sdk
+5-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:5:42-71
+8
+9    <instrumentation
+9-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:11:5-15:86
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:11:22-76
+11        android:functionalTest="false"
+11-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:13:22-53
+13        android:label="Tests for io.flutter.plugins.googlesignin.test"
+13-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:15:22-84
+14        android:targetPackage="io.flutter.plugins.googlesignin.test" />
+14-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:12:22-82
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[__tested_artifact__::google_sign_in] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+16-->[__tested_artifact__::google_sign_in] /home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-64
+17
+18    <application
+18-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:7:5-9:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.0] /home/divyank/.gradle/caches/transforms-2/files-2.1/78d13a1052de831f78ea27d603b3b48b/core-1.0.0/AndroidManifest.xml:22:18-86
+20        android:debuggable="true" >
+20-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:7:18-43
+21        <uses-library android:name="android.test.runner" />
+21-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:8:9-60
+21-->/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/google_sign_in/intermediates/tmp/manifest/androidTest/debug/manifestMerger9164235300068822642.xml:8:23-57
+22
+23        <activity
+23-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+24            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+24-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+25            android:excludeFromRecents="true"
+25-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+26            android:exported="false"
+26-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+27            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+27-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+28        <!--
+29            Service handling Google Sign-In user revocation. For apps that do not integrate with
+30            Google Sign-In, this service will never be started.
+31        -->
+32        <service
+32-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+33            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+33-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+34            android:exported="true"
+34-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+35            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+35-->[com.google.android.gms:play-services-auth:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/a48b13a073225a3f324ffcc6c9c7831d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+36
+37        <activity
+37-->[com.google.android.gms:play-services-base:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/fb96f0f054ce8e3323fbef1425af4c65/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+38            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+38-->[com.google.android.gms:play-services-base:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/fb96f0f054ce8e3323fbef1425af4c65/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+39            android:exported="false"
+39-->[com.google.android.gms:play-services-base:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/fb96f0f054ce8e3323fbef1425af4c65/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+40            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+40-->[com.google.android.gms:play-services-base:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/fb96f0f054ce8e3323fbef1425af4c65/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+41
+42        <meta-data
+42-->[com.google.android.gms:play-services-basement:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/06e481371af9bb3dac5135b9ec7fb654/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+43            android:name="com.google.android.gms.version"
+43-->[com.google.android.gms:play-services-basement:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/06e481371af9bb3dac5135b9ec7fb654/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+44            android:value="@integer/google_play_services_version" />
+44-->[com.google.android.gms:play-services-basement:16.0.1] /home/divyank/.gradle/caches/transforms-2/files-2.1/06e481371af9bb3dac5135b9ec7fb654/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+45    </application>
+46
+47</manifest>

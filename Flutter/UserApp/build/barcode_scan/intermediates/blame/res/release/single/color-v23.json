@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/309560b134448d8562f6009ea4300e49/material-1.0.0/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/color-v23/abc_tint_default.xml"
+    }
+]

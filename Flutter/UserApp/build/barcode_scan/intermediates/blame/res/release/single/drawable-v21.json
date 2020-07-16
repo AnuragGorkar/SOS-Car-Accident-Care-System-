@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/drawable-v21/design_password_eye.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/309560b134448d8562f6009ea4300e49/material-1.0.0/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/309560b134448d8562f6009ea4300e49/material-1.0.0/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/drawable-v21/avd_show_password.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/309560b134448d8562f6009ea4300e49/material-1.0.0/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/drawable-v21/avd_hide_password.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/309560b134448d8562f6009ea4300e49/material-1.0.0/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/6e3917962e446ac36ed1ef3649bb9162/core-1.0.1/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/home/divyank/AndroidStudioProjects/Flutter/sih_hackathon/build/barcode_scan/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/divyank/.gradle/caches/transforms-2/files-2.1/d280b96cddfb46850c37b167044b36ca/appcompat-1.0.2/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]
